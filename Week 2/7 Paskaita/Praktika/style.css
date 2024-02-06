@@ -1,0 +1,121 @@
+header {
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+}
+
+header img {
+    width: 200px;
+    padding-top: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aviva {
+    color: white;
+    margin-left: 90px;
+}
+
+.navbar {
+    background-color: rgb(199, 151, 20);
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a {
+    padding: 0 5px 5px 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    padding: 0 95px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.button {
+    background-color: red;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+}
+
+.tables {
+    background-color: darkblue;
+    height: 330px;
+    padding: 20px 95px 10px 95px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+th, td {
+    border: 2px solid red;
+}
+
+.firstWide {
+    padding: 8px 120px;
+}
+
+.vardas {
+    padding: 0 120px;
+}
+
+.secondWide {
+    padding: 8px 10px 8px 340px;
+    text-align: right;
+}
+
+.alignFive {
+    text-align: right;
+    padding: 8px;
+}
+
+footer {
+    background-color: rgb(199, 151, 20);
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.centerGo h1 {
+    padding-left: 95px;
+}
+
+.centerGo ul {
+    padding-left: 140px;
+}
+
+.centerGo a {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer p {
+    padding-top: 10px;
+}

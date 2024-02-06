@@ -1,0 +1,21 @@
+.desert {
+    width: 400px;
+}
+
+.googleLogo {
+    width: 400px;
+    background-image: url("../Teorija/Desert.jpg");
+}
+
+.cute {
+    width: 300px;
+}
+
+i {
+    font-size: 50px;
+    color: red;
+}
+
+.video {
+    width: 400px;
+}

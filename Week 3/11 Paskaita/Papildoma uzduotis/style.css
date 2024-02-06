@@ -1,0 +1,59 @@
+.container {
+    width: 600px;
+    height: 600px;
+    border: 1px solid purple;
+    display: flex;
+}
+
+.container > div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid purple;
+    box-sizing: border-box;
+}
+
+.container1 {
+    flex-wrap: wrap;
+}
+
+.container1 > .bigBox {
+    width: 400px;
+}
+
+.container4 {
+    flex-wrap: wrap;
+}
+
+.container4 > .bigBox {
+    width: 250px;
+}
+
+.container4 > .smallBox {
+    width: 100px;
+}
+
+.container4 > .shorterBox {
+    height: 100px;
+}
+
+.container4 > .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 > .column > div {
+    width: 100px;
+    height: 100px;
+}
+
+.container4 > .column > div:nth-child(2) {
+    height: 50px;
+}
+
+.container4 > .column > div:nth-child(3) {
+    height: 200px;
+}
+
+.container4 > .column > div:last-child {
+    height: 50px;
+}

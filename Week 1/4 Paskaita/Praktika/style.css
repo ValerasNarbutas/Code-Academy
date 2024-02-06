@@ -1,0 +1,63 @@
+header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header img {
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background-color: green;
+    height: 40px;
+    text-align: center;
+}
+
+.navbar .inner {
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+.desert {
+    width: 90%;
+}
+
+#desertPicture {
+    margin: 20px;
+    text-align: center;
+}
+
+.bar {
+    background-color: green;
+    height: 40px;
+    margin: 20px;
+}
+
+.bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+p {
+    margin: 20px;
+}
+
+.transparent {
+    background-color: rgba(144, 238, 144, 0.546);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bar .innerTwo {
+    padding-top: 5px;
+}

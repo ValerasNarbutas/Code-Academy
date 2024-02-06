@@ -1,0 +1,21 @@
+*{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#antrasParagrafas {
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+
+.largeText {
+    font-size: 40px;
+    background-color: #ff0000;
+    background-color: rgb(234, 18, 255);
+}

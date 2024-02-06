@@ -1,0 +1,63 @@
+form {
+    background-color: rgb(1, 56, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+span {
+    background-color: pink;
+}
+
+input:read-only {
+    background-color: lightgray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(1, 73, 1);
+    cursor: pointer;
+}
+
+label:not(:has(div)) {
+    padding: 8px;
+}
+
+div {
+    padding: 8px 0;
+}
+
+input:required {
+    background-color: yellowgreen;
+}
+
+#age:in-range {
+    outline: 2px solid white;
+}
+
+#age:out-of-range {
+    outline: 2px solid black;
+}
+
+#age:not([value]) {
+    outline: 2px solid red;
+}
+
+input:required:valid {
+    outline: 2px solid green;
+}
+
+input:required:invalid {
+    outline: 2px solid red;
+}
+
+input[type="checkbox"]:checked + label {
+    color: lightblue;
+}
