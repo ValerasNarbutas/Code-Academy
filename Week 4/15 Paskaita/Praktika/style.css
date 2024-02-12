@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.box {
+    background-color: white;
+    height: 200px;
+}
