@@ -1,3 +1,59 @@
-body {
-    background-color: aquamarine;
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colours */
+    --main-color: #645cff;
+    --grey-big: #f8fafc;
+    --white: white;
+    /* Box-Shadow */
+    --shadow-1: 0px 0px 10px 0px #94a3b8;
+    --shadow-2: 0px 1px 5px 1px #cbd5e1;
+    /* Border Radius */
+    --main-radius: 5px
+}
+
+/* HEADER */
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: var(--shadow-1);
+    position: relative;
+}
+
+.headerNav a {
+    padding: 0 0.2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.mainColor {
+    color: var(--main-color);
+}
+
+/* MAIN */
+
+main {
+    background-color: var(--grey-big);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectionYourTasks {
+    height: 200px;
+    width: 600px;
+    background-color: var(--white);
+    margin-top: 10vh;
+    border-radius: var(--main-radius);
+    box-shadow: var(--shadow-2);
 }
