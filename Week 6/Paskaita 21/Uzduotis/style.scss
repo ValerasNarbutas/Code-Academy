@@ -1,0 +1,69 @@
+// Colours:
+$main-color-orange: #ff6704;
+$main-color-red: #f4352d;
+$line-color: #d9dad7;
+$color-white: white;
+$text-color: black;
+$main-gradient: linear-gradient(to right, $main-color-orange 30%, $main-color-red 100%);
+// Font
+$main-font: "Roboto", sans-serif;
+// Navigation font size
+$navigation-font-size: 22px;
+
+$button-padding: 20px 30px;
+
+@mixin centeringItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: $main-font;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 30px;
+    border: 3px solid red;
+    border-radius: 50%;
+    @include centeringItems();
+    padding: 5px;
+}
+
+.navButtons a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: $navigation-font-size;
+    color: $text-color;
+}
+
+.buttonGetStarted {
+    border: 2px solid $line-color;
+    border-radius: 50px;
+    padding: $button-padding;
+    background-color: $color-white;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.sectionBuildTheBridge {
+    @include centeringItems();
+
+}
+
+.buttonGradient {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: $button-padding;
+    font-weight: 700;
+    background-image: $main-gradient;
+    color: white;
+}
