@@ -118,6 +118,11 @@ currentBalance  - 50, transaction - 51, rezultatas - true */
 // const balance = currentBalance - transaction;
 // console.log(balance < 0);
 
+// const currentBalance = 50;
+// const transaction = 51;
+// const result = currentBalance + transaction >=0;
+// console.log(result);
+
 // Skaicius su liekana
 // Patikrinkite ar du pasirinkti skaičiai dalinasi be liekanos. Rezultatą išveskite ekrane.
 
@@ -166,10 +171,10 @@ Iš rezultato atimama 50 eurų.
 
 Išveskite visus tarpinius balansus po kiekvienos operacijos, suapvalinkite rezultatus iki 2 skaičių po kablelio. */
 
-let currentBalance = 999.999;
-currentBalance = (9 * currentBalance) / 100;
-console.log(currentBalance.toFixed(2));
-currentBalance *= 2;
-console.log(currentBalance.toFixed(2));
-currentBalance -= 50;
-console.log(currentBalance.toFixed(2));
+// let currentBalance = 999.999;
+// currentBalance = (9 * currentBalance) / 100;
+// console.log(currentBalance.toFixed(2));
+// currentBalance *= 2;
+// console.log(currentBalance.toFixed(2));
+// currentBalance -= 50;
+// console.log(currentBalance.toFixed(2));
