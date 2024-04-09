@@ -14,7 +14,7 @@
 
 // setInterval(() => console.log("Praejo dar viena sekunde"), 1000);
 
-const numbers = [1, 2, 3, 5];
+// const numbers = [1, 2, 3, 5];
 
 // for(i = 0; i < numbers.length ; i++){
 //     console.log(numbers[i] * 2);
@@ -96,14 +96,44 @@ const numbers = [1, 2, 3, 5];
 
 // pakelti visus skaicius kvadraty ir gauti nauja arr su tik skaiciais kurie yra mazesni nei 20
 
-const numbers3 = [2, 8, 9, 6]
+// const numbers3 = [2, 8, 9, 6]
 
-const res = numbers3.map((x) => x * x).filter((x) => x < 20);
+// const res = numbers3.map((x) => x * x).filter((x) => x < 20);
 
-console.log(res);
+// console.log(res);
 
 // forEach - naudojam kai nereikia gauti naujo arr rezultato
 // map - kai reikia gauti nauja
+
+// UZDUOTYS
+
+// Callbacks: Užduotys
+// Vardas
+
+/*Sukurkite dvi funkcijas: 
+
+alertName
+
+consoleName
+
+Abi funkcijos turės vieną parametrą – vardą. Jos bus callback funkcijos. Pirmoji funkcija vardą alertins, antroji – console.log'ins. 
+
+Susikurkite pagrindę funkciją (coreFunction). Ši funkcija – paims pirmą raidę, ją padarys didžiąja ir prijungs kitas raides (t.y. užtikrina, kad vardas prasideda iš didžiosios; pvz: "petras" => "Petras"), tada iškviečia vieną iš callback funkcijų (nesvarbu kurią, galima jas kaitalioti). */
+
+// function alertName(text) {
+//     alert(text)
+//   }
+  
+//   function consoleName(text) {
+//     console.log(text)
+//   }
+  
+//   function coreFunction(name, callback) {
+//     const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+//     callback(capitalizedName)
+//   }
+  
+//   coreFunction("august", consoleName)
 
 
 
