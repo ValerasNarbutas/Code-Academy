@@ -59,6 +59,5 @@ psotForm.addEventListener("submit", async (e) => {
         statusElement.textContent = "Please try again later"
     }
 
-
-
+    
 })
