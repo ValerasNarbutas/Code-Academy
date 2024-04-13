@@ -178,3 +178,65 @@ Išveskite visus tarpinius balansus po kiekvienos operacijos, suapvalinkite rezu
 // console.log(currentBalance.toFixed(2));
 // currentBalance -= 50;
 // console.log(currentBalance.toFixed(2));
+
+// UZDUOTYS AGAIN
+
+// const a = 10;
+// const b = 8;
+
+// const result = a + b;
+
+// console.log(result);
+
+
+// let year = 2024;
+// year -= 28;
+
+// console.log(year);
+
+
+// const name = "August";
+// const lastName = "Bal";
+// const fullName = name + " " + lastName;
+// console.log(fullName);
+
+
+// const temp = 28;
+// const farenheit = (temp * 9 / 5) + 32;
+
+// console.log(farenheit);
+
+
+// let currentBalance = 999.99;
+// currentBalance = (currentBalance * 0.09) + currentBalance;
+// console.log(currentBalance.toFixed(2));
+// currentBalance *= 2;
+// console.log(currentBalance.toFixed(2));
+// currentBalance -= 50;
+// console.log(currentBalance.toFixed(2));
+
+
+
+// const text1 = "Labas";
+// const text2 = "Labas";
+// console.log(text1 === text2);
+
+
+// const number = 10;
+// const text = "10";
+
+// console.log(number === text);
+// console.log(number == text);
+// console.log(number != text);
+
+
+// const currentBalance = 50;
+// const transaction = -50;
+// const result = currentBalance - transaction;
+// console.log(result >= 0);
+
+
+const num1 = 8;
+const num2 = 4;
+const result = num1 % num2;
+console.log(result === 0);

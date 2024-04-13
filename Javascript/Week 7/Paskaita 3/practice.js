@@ -308,29 +308,59 @@ BMW group priklauso: BMW, Mini, Rolls-Royce. */
 
 // Kokia šiandien diena?
 // Sukurkite variable weekDay, kuris būtų lygus skaičiui – savaitės dienai, skaičiuojant nuo 0 (t.y. pirmadienis - 0; antradienis - 1; trečiadienis - 2 ir t.t.). Parašykite switch sąlygą, kuri paimtų skaičių ir jį pakeistų (ne sukurtų naują kintamąjį, o pakeistų weekDay reikšmę) į savaitės dieną žodžiu. Vėliau kintamąjį išveskite.
-const weekDay = 0;
-switch (weekDay) {
-    case 0 :
-        console.log("Pirmadienis");
-        break;
-    case 1 :
-        console.log("Antradienis");
-        break;
-    case 2 :
-        console.log("Treciadienis");
-        break;
-    case 3 :
-        console.log("Ketvirtadienis");
-        break;
-    case 4 :
-        console.log("Penktadienis");
-        break;
-    case 5 :
-        console.log("Sestadienis");
-        break;
-    case 6 :
-        console.log("Sekmadienis");
-        break;
-    default:
-        console.log("Tai nera savaites diena");
-}
+// const weekDay = 0;
+// switch (weekDay) {
+//     case 0 :
+//         console.log("Pirmadienis");
+//         break;
+//     case 1 :
+//         console.log("Antradienis");
+//         break;
+//     case 2 :
+//         console.log("Treciadienis");
+//         break;
+//     case 3 :
+//         console.log("Ketvirtadienis");
+//         break;
+//     case 4 :
+//         console.log("Penktadienis");
+//         break;
+//     case 5 :
+//         console.log("Sestadienis");
+//         break;
+//     case 6 :
+//         console.log("Sekmadienis");
+//         break;
+//     default:
+//         console.log("Tai nera savaites diena");
+// }
+
+
+// PRACTICE AGAIN
+
+
+// const smallestCountry = prompt("Koia yra maziausia pasaulyje salis?");
+
+// if (smallestCountry === "Vatikanas") {
+//     alert("Teisingai!")
+// } else {
+//     alert("Rimtai? Taigi, Vatikanas!")
+// }
+
+// let result = (a + b < 4) ? "Below" : "Over";
+
+
+// const message = (login == "Employee") ? "Hello" :
+//     (login == "Director") ? "Greetings" :
+//     (login == "") ? "No login" :
+//     "";
+
+// const legalAge = 20;
+// const clientAge = 18;
+
+// if (clientAge >= legalAge) {
+//     alert("Client is legal age")
+// } else {
+//     alert("Client is a baby")
+// }
+

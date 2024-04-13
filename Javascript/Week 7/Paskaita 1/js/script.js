@@ -49,3 +49,15 @@
 
 // Uppercase const?
 
+// UZDUOTYS AGAIN
+
+// let admin;
+// let name = "Jonas";
+
+// admin = name;
+
+// alert(admin);
+
+// let ourPlanetName = "Earth";
+// let currentUserName = "August";
+
