@@ -1,11 +1,15 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
 
-const cars = ["BMW", "VW", "Porsche"];
+app.use(express.json());
+app.use(cors());
+
+const carBrands = ["BMW", "VW", "Porsche"];
 
 app.get("/", (req, res) => {
-    res.json(cars);
-});
+    res.json(carBrands);
+})
 
 app.listen(3000, () => console.log("app listening on port 3000"));
