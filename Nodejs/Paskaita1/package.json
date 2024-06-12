@@ -9,7 +9,8 @@
   "author": "Augustina",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "braces": ">=3.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
