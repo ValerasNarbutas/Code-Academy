@@ -25,9 +25,9 @@
 // 1. (1) => vidus for each callbacko 1
 // ...
 
-// numbers.forEach((num) => {
-//     console.log(num * 2);
-// })
+numbers.forEach((num) => {
+    console.log(num * 2);
+})
 
 // function myForEach(arr, callback) {
 //     for(i = 0; i < numbers.length ; i++){
